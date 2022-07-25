@@ -18,6 +18,7 @@ export default function Home() {
           <Image
             className="rounded-xl transition ease-in-out group-hover:opacity-50"
             src={harumi}
+            alt="Harumi"
           />
           <div className="hidden transition ease-in-out group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
             <h3 className="text-7xl text-white tracking-wider text-center uppercase font-bold">
