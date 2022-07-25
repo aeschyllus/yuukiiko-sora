@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { FaPaintBrush, FaTwitter } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import harumi from "../public/assets/harumi.png";
@@ -34,15 +35,15 @@ export default function Home() {
               resembles to me because of the personality and its features.
             </p>
             <div className="flex justify-center gap-4">
-              <a target="_blank" href="https://www.artstation.com/yukiikosora">
+              <Link href="https://www.artstation.com/yukiikosora">
                 <FaPaintBrush className="text-white transition hover:text-rose-300 hover:cursor-pointer text-2xl" />
-              </a>
-              <a target="_blank" href="https://www.instagram.com/yukiiko_sora/">
+              </Link>
+              <Link href="https://www.instagram.com/yukiiko_sora/">
                 <RiInstagramFill className="text-white transition hover:text-rose-300 hover:cursor-pointer text-2xl" />
-              </a>
-              <a target="_blank" href="https://twitter.com/yukiiko_sora">
+              </Link>
+              <Link href="https://twitter.com/yukiiko_sora">
                 <FaTwitter className="text-white transition hover:text-rose-300 hover:cursor-pointer text-2xl" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
