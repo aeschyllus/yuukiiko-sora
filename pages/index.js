@@ -30,7 +30,7 @@ export default function Home() {
         </div>
         <div className="text-justify text-slate-50 font-semibold">
           <p className="mb-2">
-            Hi I'm yukiko, please call me yuki. I draw fan art and original
+            Hi I&apos;m yukiko, please call me yuki. I draw fan art and original
             illustrations.
           </p>
           <p>
