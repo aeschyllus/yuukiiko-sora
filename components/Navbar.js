@@ -157,17 +157,17 @@ const Navbar = () => {
                 Follow me!
               </p>
               <div className="flex items-center justify-around my-4 w-full sm:w-[80%]">
-                <Link href="">
+                <Link href="https://www.deviantart.com/yukiikoart">
                   <div className="border-2 border-rose-400 p-3 rounded-full cursor-pointer">
                     <FaDeviantart className="text-rose-400" />
                   </div>
                 </Link>
-                <Link href="">
+                <Link href="https://www.instagram.com/yukiiko_sora/">
                   <div className="border-2 border-rose-400 p-3 rounded-full cursor-pointer">
                     <RiInstagramFill className="text-rose-400" />
                   </div>
                 </Link>
-                <Link href="">
+                <Link href="https://twitter.com/yukiiko_sora">
                   <div className="border-2 border-rose-400 p-3 rounded-full cursor-pointer">
                     <FaTwitter className="text-rose-400" />
                   </div>
