@@ -1,0 +1,10 @@
+.lyrics {
+  text-align: justify;
+  background-image: url(../public/assets/nica.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}

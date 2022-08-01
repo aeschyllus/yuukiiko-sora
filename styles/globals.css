@@ -11,7 +11,7 @@
   }
 
   .link-mobile {
-    @apply py-2 text-center border-2 rounded-full text-rose-400 border-rose-400 cursor-pointer;
+    @apply py-2 text-center border-2 rounded-full cursor-pointer text-rose-400 border-rose-400;
   }
 
   .link-active {
